@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+   
+}
+section{
+    display: flex;
+    height: 200px;
+}
+#content{
+    flex: 5;
+    background-color: green;
+    color: white;
+}
+#side{
+    flex: 2;
+    background-color: orangered;
+    color: white;
+}
